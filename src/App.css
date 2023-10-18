@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin : 0
+}
+a{
+  text-decoration: none;
+  color: currentColor;
+}
+.column {
+  float: left ;
+  padding: 0px;
+ 
+}
+.column.side {
+  width: 20%;
+}
+
+
+.column.side .accordion-button::after{
+  transform: rotate(-90deg);
+}
+.column.rightSide 
+{
+  width: 80%;
+  padding: 20px 40px ;
+}
+.alignright{
+
+  background-color: rgb(183, 228, 183);
+  color: rgb(31, 235, 31);
+ 
+}
+.balance1{
+  height: 60px;
+  width: 60px;
+  display: block;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 40px;
+  margin-left :auto;
+
+}
+.order{
+  
+  background-color: rgb(233, 204, 233);
+  color: rgb(230, 44, 230);
+ 
+}
+
+.balance{
+  
+ 
+  background-color:rgb(199, 199, 234);
+  color: rgb(68, 68, 209);
+
+}
+.sales{
+  
+
+  background-color:rgb(253, 209, 209);
+  color: rgb(244, 32, 32);
+ 
+}
+
+.spanCmn{
+  display: block;
+}
+.spanMuted{
+  font-size: 10px;
+  opacity: 0.4;
+}
+.spanFig{
+  font-size: 30px;
+  font-weight: 600;
+}
+.spanMon{
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.spanMon span{
+  color: rgb(31, 190, 31);
+  font-weight: 700;
+}
+.spandown{
+  font-size: 10px;
+  font-weight: 500;
+}
+.spandown span{
+  color: rgb(254, 6, 6);
+}
+
+.headingFig{
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 15px;
+}
+
+.MonthlyEarning{
+
+  padding: 60px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 15px;
+ 
+}
+.product{
+  
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-top-left-radius: 20px;
+  border-radius: 15px;
+}
+
+.pname{
+  padding: 100px;
+
+}
+.customers
+{
+  width: 100%;
+}
+.customers th{
+  text-align: right;
+  padding: 10px;
+}
+.customers td{
+  text-align: right;
+  padding: 10px;
+}
+
+.chart {
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: #f8dfff;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  height: 10rem;
+}
